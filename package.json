@@ -1,0 +1,21 @@
+{
+  "name": "reactnodets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "heroku-prebuild":"cd client && npm ci && npm run build && move build ../server",
+    "start":"cd server && npm ci && tsc && node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r9-s-newb/r9-s-newb-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r9-s-newb/r9-s-newb-backend/issues"
+  },
+  "homepage": "https://github.com/r9-s-newb/r9-s-newb-backend#readme"
+}
